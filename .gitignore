@@ -1,0 +1,5 @@
+#Ignore all files starting with .txt extension
+*.txt
+
+#Ignore the NODE directory
+node_modules/
