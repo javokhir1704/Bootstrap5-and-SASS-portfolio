@@ -1,0 +1,6 @@
+@use "../custom" as *; //When you import a partial, you don't need to include the underscore or file extension. 
+
+//Gradient Mixin
+@mixin gradient {
+    background:linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
+}
