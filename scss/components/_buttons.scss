@@ -8,6 +8,9 @@
         display: none;
     }
 
+    @include media-breakpoint-down(xl) {// max-width:1200
+        display: none;
+    }
     position: relative;
     padding:0.9375rem 4.375rem 0.9375rem 1.25rem;
     font-weight: 700;
