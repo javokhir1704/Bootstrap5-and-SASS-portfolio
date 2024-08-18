@@ -56,11 +56,11 @@
 
     &--title {
         font-size: 1.2rem;
-        text-transform: uppercase;// capitalize doesn't matter
+        text-transform: capitalize;
         font-weight: 600;
         font-family: 'Poppins', sans-serif;
         display: inline-block;
-
+        //Start of styling the gradient text
         background-image: linear-gradient(to right, $primary, $secondary);
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -76,4 +76,9 @@
 .border-right {
     border-right: 0.1rem solid $gray-300;
     height:100%;
+}
+
+//GRADIENT BG
+.gradient {
+    background:linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
 }
